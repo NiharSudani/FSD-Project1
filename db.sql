@@ -41,6 +41,10 @@ ALTER TABLE orders
 INSERT INTO products (name, description, price, image, category)
 VALUES ('Men\'s T-Shirt', 'Cotton round neck tee', 499, 'mens-shirt.jpg', 'Men');
 
+-- Add admin user
+INSERT INTO users (name, email, password, role)
+VALUES ('Admin User', 'admin@example.com', 'admin123', 'admin');
+
 
 
 
